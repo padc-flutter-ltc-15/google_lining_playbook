@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.example.google_play_book"
+    minSdkVersion="16"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/Users/zawmoehtike/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/intermediates/javac/release/classes:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/tmp/kotlin-classes/release:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/kotlinToolingMetadata:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.google_play_book"
+      generatedSourceFolders="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/generated/ap_generated_sources/release/out:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/generated/aidl_source_output_dir/release/out:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/generated/source/buildConfig/release:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/generated/res/rs/release:/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="/Users/zawmoehtike/zawmoehtike/flutter source code/google_lining_playbook/build/app"
+    bootClassPath="/Users/zawmoehtike/Library/Android/sdk/platforms/android-33/android.jar:/Users/zawmoehtike/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
